@@ -1,0 +1,121 @@
+/*****************************************************************************
+  project_doc
+******************************************************************************/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*****************************************************************************
+  Base Styles
+******************************************************************************/
+body {
+  padding: 36px 0 0 0;
+  background: #f3f7fa;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 12px; }
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 0 24px 0;
+  line-height: 24px; }
+
+h3 {
+  font-size: 1.125em;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 0 12px 0;
+  line-height: 24px; }
+
+h4 {
+  font-size: 0.75em;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 0 24px 0;
+  line-height: 18px;
+  color: #333;
+  text-transform: uppercase; }
+  h4 a {
+    font-weight: 500; }
+
+p {
+  margin: 0 0 24px 0;
+  line-height: 24px; }
+
+a {
+  color: #f5916a;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+ul.navi li a {
+  text-decoration: none;
+  color: #fff; }
+  ul.navi li a:hover {
+    color: #f5916a; }
+
+ol {
+  margin: 6px 0 24px 0;
+  padding: 0 0 0 36px; }
+  ol li {
+    margin: 0 0 14px 0; }
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  border: none;
+  border-bottom: 2px;
+  border-bottom: 2px solid #f9f9f9;
+  margin: 0 0 24px 0; }
+
+blockquote {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0 0 36px 12px;
+  line-height: 24px; }
+
+.logo {
+  width: 36px;
+  margin: 0 0 24px 0; }
+
+/*****************************************************************************
+  Layout Styles
+******************************************************************************/
+ul.navi {
+  width: 192px;
+  height: 100%;
+  background: #26292e;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: #fff;
+  list-style-type: none;
+  padding: 24px 18px 0 18px;
+  border-right: 2px solid #111; }
+  ul.navi li {
+    margin: 0 0 14px 0;
+    color: #fff; }
+    ul.navi li ul {
+      margin: 6px 0 24px 0; }
+
+article {
+  height: auto;
+  width: 60%;
+  background: #fff;
+  margin: 0 0 24px 222px;
+  padding: 30px 24px 36px 24px;
+  max-width: 700px;
+  min-width: 400px;
+  border-radius: 4px; }
+  article img.fullwidth {
+    width: 100%;
+    margin: 0 0 8px 0; }
+
+/*****************************************************************************
+  MODULE: Background
+******************************************************************************/
